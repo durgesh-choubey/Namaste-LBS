@@ -1,20 +1,75 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Namaste-LBS: Hostel Washing Machine Booking App
 
-# Run and deploy your AI Studio app
+**Project Link:** [https://github.com/durgesh-choubey/Namaste-LBS](https://github.com/durgesh-choubey/Namaste-LBS)  
+**Live Demo:** [https://durgesh-choubey.github.io/Namaste-LBS/](https://durgesh-choubey.github.io/Namaste-LBS/)
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/17O3fVOsmCuSj1icJBjxK4wzgB-xWO7II
+## **Overview**
 
-## Run Locally
+Namaste-LBS is a **web application designed for BHU LBS hostel students** to conveniently book washing machines and manage hostel services. The app provides **separate dashboards for Admins and Students**, with features designed to simplify scheduling, tracking, and maintenance.
 
-**Prerequisites:**  Node.js
+This project was built using **TypeScript, JavaScript and HTML**, and hosted on **GitHub Pages**.
+
+---
+
+## **Project Features**
+
+### **1. Student Dashboard**
+- View available washing machines and time slots.  
+- Book a washing machine for a specific date and time.  
+- View booking history and upcoming schedules.  
+- Receive notifications for scheduled maintenance or app downtime.  
+- Cancel or reschedule bookings.  
+
+### **2. Admin Dashboard**
+- Add, remove, and manage washing machines.  
+- View all student bookings in a single interface.  
+- Approve or cancel student requests if needed.  
+- Schedule maintenance windows for machines and notify students.  
+- Track overall usage statistics and generate reports.  
+
+### **3. Notifications**
+- App-wide announcements (e.g., maintenance schedules).  
+- Real-time updates on booking status.  
+
+---
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## **How It Works**
+
+### **Admin**
+1. Log in to the **Admin Dashboard**.  
+2. Add washing machines and manage time slots.  
+3. View all student bookings.  
+4. Schedule maintenance and send notifications.
+
+### **Student**
+1. Log in to the **Student Dashboard**.  
+2. Check available machines and time slots.  
+3. Book a slot and view booking history.  
+4. Receive notifications for maintenance and updates.
+
+---
+
+## **Technologies Used**
+- HTML5 
+- JavaScript
+- TypeScript
+- GitHub Pages (for hosting)  
+
+---
+
+## **Future Enhancements**
+- Expand to include **other hostel services** (e.g., mess bookings, room maintenance).  
+- Integrate **authentication** for secure logins.  
+- Add **real-time notifications** with Firebase or WebSockets.  
+- Mobile-friendly responsive design.
+
+
+
+
+
+
